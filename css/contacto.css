@@ -1,0 +1,62 @@
+header {
+    background-color: rgba(128, 128, 128, 0.7);
+    margin: 0;
+    padding: 10px; 
+    color:yellow;
+    
+    height: 100px;
+    
+}
+
+.name1{
+    position: absolute;
+    top: 20px;
+    left: 165px;
+    width: 200px;
+    height: 50px;
+}
+
+.logo1 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#encabezado1 {
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    
+}
+ul, ol {
+    list-style: none;
+}
+.lista1 li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 32px;
+}
+.lista1 li a:hover{
+    background-color: #434343;  
+}
+.lista1 > li {
+    float: left;
+}
+.lista1 li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.lista1 li:hover > ul {
+    display: block;
+}
+.lista1 li ul li{
+    position: relative;
+}
+.lista1 li ul li ul{
+    right:-140px;
+    top:0px;
+}
